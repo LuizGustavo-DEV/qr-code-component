@@ -47,4 +47,4 @@ I aim to study the subject and put what I learn in practice in future projects.
 ## Author
 
 - GitHub - [LuizGustavo-DEV](https://github.com/LuizGustavo-DEV)
-- Frontend Mentor - [@LuizGustavo-DEV](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@LuizGustavo-DEV](https://www.frontendmentor.io/profile/LuizGustavo-DEV)
