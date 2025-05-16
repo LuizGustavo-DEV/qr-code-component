@@ -1,0 +1,26 @@
+:root {
+  font-family: "Outfit", sans-serif;
+  color: var(--slate-500);
+
+  --white: #fff;
+
+  --slate-300: #d5e1ef;
+  --slate-500: #68778d;
+  --slate-900: #1f314f;
+
+  --ratio: 1.25;
+
+  --font-size-base: 1rem;
+  --font-size-1: calc(var(--font-size-base) * var(--ratio));
+
+  --space--2: calc(var(--space--1) / var(--ratio));
+  --space--1: calc(var(--space-1) / var(--ratio));
+  --space-1: 1rem;
+  --space-2: calc(var(--space-1) * var(--ratio));
+  --space-3: calc(var(--space-2) * var(--ratio));
+  --space-4: calc(var(--space-3) * var(--ratio));
+  --space-5: calc(var(--space-4) * var(--ratio));
+
+  --line-height-1: 1.2;
+  --line-height-2: calc(var(--line-height-1) * var(--ratio));
+}

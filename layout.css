@@ -1,0 +1,55 @@
+/* BOX COMPONENT */
+
+.box {
+  display: block;
+  padding: var(--box-padding, var(--space-1));
+
+  border-radius: var(--box-border-radius, 0);
+
+  inline-size: 100%;
+  max-inline-size: var(--box-max-inline-size, 100%);
+}
+
+/* COVER COMPONENT */
+.cover {
+  display: flex;
+  flex-direction: column;
+  min-block-size: 100vh;
+}
+
+.cover > .cover-centered {
+  margin-block: auto;
+}
+
+.cover > :first-child:not(.cover-centered) {
+  margin-block-start: 0;
+}
+
+.cover > :last-child:not(.cover-centered) {
+  margin-block-end: 0;
+}
+
+/* CENTER COMPONENT */
+.center {
+  margin-inline: auto;
+}
+
+/* STACK COMPONENT */
+.stack {
+  --stack-space: 1em;
+}
+
+.stack > * {
+  margin-block-start: 0;
+}
+
+.stack > * + * {
+  margin-block-start: var(--stack-space);
+}
+
+/* WRAPPER COMPONENT */
+.wrapper {
+  max-inline-size: 70rem;
+  margin-inline: auto;
+  padding-inline: var(--space--1);
+}

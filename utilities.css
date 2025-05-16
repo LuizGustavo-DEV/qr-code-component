@@ -1,0 +1,40 @@
+/* BACKGROUNDS */
+.bg\:white {
+  background-color: var(--white) !important;
+}
+
+.bg\:light {
+  background-color: var(--slate-300) !important;
+}
+
+.bg\:dark {
+  background-color: var(--slate-900) !important;
+}
+
+/* COLORS */
+.color\:white {
+  color: var(--white) !important;
+}
+
+.color\:light {
+  color: var(--slate-300) !important;
+}
+
+.color\:dark {
+  color: var(--slate-900) !important;
+}
+
+/* BORDER RADIUS */
+.border-radius\:1 {
+  border-radius: var(--space-1) !important;
+}
+
+/* PADDING */
+.p-block--2 {
+  padding-block: var(--space--2) !important;
+}
+
+/* TEXT ALIGNMENT */
+.text-align\:center {
+  text-align: center !important;
+}
